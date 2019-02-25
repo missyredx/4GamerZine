@@ -1,0 +1,30 @@
+
+        @media (min-width: 800px) {
+	.wrapper {
+		display: grid;
+        grid-gap: 10px;
+		grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "a"
+    "b"
+    "c";
+		background-color: #000;
+		color: #444;
+        width: 95%;
+        height: auto;
+        
+            }
+	}
+
+	.box-grid {
+		background-color: #444;
+		color: #fff;
+		border-radius: 5px;
+		padding: 20px;
+		font-size: 150%;
+        margin-bottom: 10px;
+        width: 85%;
+        
+        
+        
+
+	}
