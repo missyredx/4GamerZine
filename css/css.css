@@ -22,6 +22,44 @@ body {
     padding: 20px;
 }
 
+@media (min-width: 400px){
+    figure{
+     margin: 5%;   
+        }  
+    
+}
+
+@media (min-width: 700px){
+    figure{
+     margin: 10%;   
+        }  
+    
+}
+  
+@media (min-width: 1200px){
+    figure{
+     margin: 15%;   
+        }  
+    
+}
+
+
+figure {
+  display: inline-block;
+  text-align: center;
+  border: 0px dotted #000;
+  max-height: 350px;
+  
+}
+figure img {
+  vertical-align: top;
+      
+}
+figure figcaption {
+  border: 0px dotted #000;
+
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -52,6 +90,7 @@ img {
     object-fit: scale-down;
     object-position: center;
     vertical-align: middle;
+    width: 95%
 }
 
 .title-text-main {
